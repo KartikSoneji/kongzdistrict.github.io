@@ -1,0 +1,108 @@
+h1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: yellow;
+    font-size: 100px;
+}
+
+
+.container {
+    position: relative;
+}
+
+  
+  /* Bottom right text */
+.about-text {
+    position: relative;
+    font-size: 2em;
+    top: 100px;
+    width: 100%;
+    color: lightgreen;
+    margin: 100px auto;
+    background: #b7f4d836;
+    border-color: green; 
+    border-style: solid;
+    border-width: 1px;
+}
+h2 {
+    position: relative;
+    top: 165px;
+    font-size: 100px;
+    color: yellow;
+
+}
+
+.minting-text {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgreen;
+    font-size: 2em;
+    color: lightgreen;
+    background: #b7f4d836;
+}
+.roadmap-text{
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgreen;
+    font-size: 2em;
+    color: lightgreen;
+    background: #b7f4d836;
+}
+.hub-text {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgreen;
+    font-size: 2em;
+    color: lightgreen;
+    background: #b7f4d836;
+}
+.mint-text {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgreen;
+    font-size: 2em;
+    color: lightgreen;
+    background: #b7f4d836;
+}
+
+.faq-text{
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgreen;
+    font-size: 2em;
+    color: lightgreen;
+    background: #b7f4d836;
+}
+
+.game-text {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgreen;
+    font-size: 2em;
+    color: lightgreen;
+    background: #b7f4d836;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("media/forestfadednew.png");
+  
+    min-height: 950px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+    /* Needed to position the navbar */
+
+    
+  }
+  
+  .container{
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'VT323', monospace;}
+  /* Position the navbar container inside the image */
+
+
+  
