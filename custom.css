@@ -83,6 +83,75 @@ h2 {
     background: #b7f4d836;
 }
 
+<<<<<<< HEAD
+.accordion {
+
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 5px;
+    font-family: sans-serif;
+    background: #b7f4d81c;
+    border-color: darkgreen;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 2em;
+
+}
+.accordion__label,
+.accordion__content {
+    padding: 14px 20px;
+}
+
+.accordion__label{
+    display: block;
+    color: lightgreen;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+
+}
+
+.accordion__label:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.accordion__label::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+
+.accordion__content {
+    background: #b7f4d836;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+  }
+  
+  .accordion__input {
+    display: none;
+  }
+  
+  .accordion__input:checked ~ .accordion__content {
+    display: block;
+  }
+  
+  .accordion__input:checked ~ .accordion__label::after {
+    transform: translateY(-50%) rotate(0.5turn);
+  }
+  
+=======
+>>>>>>> 6919037cd2fe23fa747dd160ff08a8fd37f2fbfd
 .bg-img {
     /* The image used */
     background-image: url("media/forestfadednew.png");
@@ -103,6 +172,12 @@ h2 {
     font-family: 'Press Start 2P', cursive;
     font-family: 'VT323', monospace;}
   /* Position the navbar container inside the image */
+<<<<<<< HEAD
+  .accordion{
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'VT323', monospace;}
+=======
 
+>>>>>>> 6919037cd2fe23fa747dd160ff08a8fd37f2fbfd
 
   
